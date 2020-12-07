@@ -1,0 +1,50 @@
+{
+  "name": "pollen-solutions/facebook-api",
+  "description": "FacebookApi component",
+  "homepage": "https://pollen-solutions/components/facebook-api/",
+  "keywords": [
+    "pollen-solutions",
+    "component",
+    "facebook api"
+  ],
+  "time": "2020-12-07",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jordy Manner",
+      "email": "jordy.manner@milkcreation.fr",
+      "role": "Developper"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.tigreblanc.fr/pollen-solutions/"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "composer/installers": "~1.0",
+    "presstify/framework": ">=1.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pollen\\FacebookApi\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pollen\\FacebookApi\\Test\\": "tests"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
