@@ -1,25 +1,19 @@
 {
   "name": "pollen-solutions/facebook-api",
   "description": "FacebookApi component",
-  "homepage": "https://pollen-solutions/components/facebook-api/",
+  "homepage": "https://github.com/milkcreation/pollen-facebook-api.git",
   "keywords": [
     "pollen-solutions",
     "component",
     "facebook api"
   ],
-  "time": "2020-12-07",
+  "time": "2021-09-14",
   "license": "MIT",
   "authors": [
     {
       "name": "Jordy Manner",
       "email": "jordy.manner@milkcreation.fr",
       "role": "Developper"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://composer.tigreblanc.fr/pollen-solutions/"
     }
   ],
   "require": {
